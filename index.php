@@ -1,17 +1,15 @@
 <?php
 @ob_start();
 session_start();
-if (!isset($_SESSION['username'])){ 
+if (!isset($_SESSION['username'])){
     include('include/dbconn.php');
 ?>
 <?php
 include('include/header.php')
 ?>
-    <!-- ##### Hero Area Start ##### -->
+    <!-- ##### start the sliding ##### -->
     <section class="hero-area hero-post-slides owl-carousel">
-        <!-- Single Hero Slide -->
         <div class="single-hero-slide bg-img bg-overlay d-flex align-items-center justify-content-center" style="background-image: url(img/uccchurch.jpg);">
-            <!-- Post Content -->
             <div class="container">
                 <div class="row">
                     <div class="col-12">
@@ -104,7 +102,7 @@ include('include/header.php')
                                 <thead class="thead-dark blue " >
                                 <tr>
                                 <th>Day</th>
-                                <th>Time</th> 
+                                <th>Time</th>
                                 <th>Activity</th>
                                 </tr>
                                 </thead>
@@ -126,7 +124,7 @@ include('include/header.php')
                                         </ul>
                                     </td>
                                 </tr>
-                                
+
                                <tr class="active"><td>Monday</td>
                                    <td>
                                        <ul>
@@ -141,7 +139,7 @@ include('include/header.php')
                                         </ul>
                                     </td>
                                 </tr>
-                                
+
                                 <tr><td>Tuesday</td>
                                    <td>
                                        <ul>
@@ -154,7 +152,7 @@ include('include/header.php')
                                         </ul>
                                     </td>
                                 </tr>
-                                
+
                                 <tr class="active"><td>Wednesday</td>
                                    <td>
                                        <ul >
@@ -169,7 +167,7 @@ include('include/header.php')
                                         </ul>
                                     </td>
                                 </tr>
-                                
+
                                 <tr><td>Thursday</td>
                                    <td>
                                        <ul >
@@ -186,7 +184,7 @@ include('include/header.php')
                                         </ul>
                                     </td>
                                 </tr>
-                                
+
                                 <tr class="active"><td>Friday</td>
                                    <td>
                                        <ul >
@@ -203,7 +201,7 @@ include('include/header.php')
                                         </ul>
                                     </td>
                                 </tr>
-                                
+
                                 <tr><td>Saturday</td>
                                    <td>
                                        <ul >
@@ -221,14 +219,14 @@ include('include/header.php')
                                 </p>
                               </tbody>
                             </table>
-                        </div>    
+                        </div>
                     </div>
-        
-                   
+
+
                 </div>
                 </div>
             </div><br>
-    <div class="container-fluid"        
+    <div class="container-fluid"
      <div class="upcoming-events-heading bg-img bg-overlay bg-fixed" style="background-image: url(img/1.jpg);">
         <div class="container">
             <div class="row">
@@ -245,7 +243,7 @@ include('include/header.php')
     </div>
  <div class="container">
     <section class="hero-area hero-post-slides owl-carousel">
-        
+
         <!-- Single Hero Slide -->
         <div class="single-hero-slide bg-img bg-overlay d-flex align-items-center justify-content-center">
             <!-- Post Content -->
@@ -266,7 +264,7 @@ include('include/header.php')
                 <div class="row">
                     <div class="col-12">
                         <div class="hero-slides-content">
-                         <img src="img/build1.jpg" class="img-fluid">   
+                         <img src="img/build1.jpg" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -279,7 +277,7 @@ include('include/header.php')
                 <div class="row">
                     <div class="col-12">
                         <div class="hero-slides-content">
-                          <img src="img/build2.jpg" class="img-fluid">  
+                          <img src="img/build2.jpg" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -299,7 +297,7 @@ include('include/header.php')
                 </div>
             </div>
         </div>
-        
+
         <div class="single-hero-slide bg-img bg-overlay d-flex align-items-center justify-content-center">
             <!-- Post Content -->
             <div class="container">
@@ -312,11 +310,11 @@ include('include/header.php')
                 </div>
             </div>
         </div>
-        
-        
+
+
     </section><br>
     </div>
-    <div class="container-fluid"        
+    <div class="container-fluid"
      <div class="upcoming-events-heading bg-img bg-overlay bg-fixed" style="background-color:gray;">
         <div class="container">
             <div class="row">
@@ -331,11 +329,11 @@ include('include/header.php')
         </div>
      </div>
     <div class="container">
-        
+
         <iframe width="1000" height="381" src="https://www.youtube.com/embed/q8hR4mbXNdY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        
+
     </div>
-    
+
     </div>
     <br><br>
   </section>
@@ -364,7 +362,7 @@ include('include/header.php')
                     </div>
                 </div>
 
-             
+
                 <!-- Single About Us Content -->
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="about-us-content mb-100">
@@ -392,7 +390,7 @@ include('include/header.php')
         </div>
      </div>
      </div>
-    
+
     <!-- ##### About Area End ##### -->
 
     <!-- ##### Call To Action Area Start ##### -->
@@ -439,13 +437,13 @@ include('include/header.php')
                             <div class="sermons-meta-data">
                                 <p><i class="fa fa-user" aria-hidden="true"></i> Sermon From: <span>Pr.Joshua Zake</span></p>
                                 <p><i class="fa fa-tag" aria-hidden="true"></i> Categories: <span>Spiritual Growth</span></p>
-                                
+
                             </div>
                         </div>
                     </div>
                 </div>
-                
-                
+
+
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="single-latest-sermons mb-100">
                         <div class="sermons-thumbnail">
@@ -459,13 +457,13 @@ include('include/header.php')
                             <div class="sermons-meta-data">
                                 <p><i class="fa fa-user" aria-hidden="true"></i> Sermon From: <span>Pr.Joshua Zake</span></p>
                                 <p><i class="fa fa-tag" aria-hidden="true"></i> Categories: <span>Salvation</span></p>
-                                
+
                             </div>
                         </div>
                     </div>
                 </div>
-                
-                
+
+
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="single-latest-sermons mb-100">
                         <div class="sermons-thumbnail">
@@ -479,18 +477,18 @@ include('include/header.php')
                             <div class="sermons-meta-data">
                                 <p><i class="fa fa-user" aria-hidden="true"></i> Sermon From: <span>Pr.Joshua Zake</span></p>
                                 <p><i class="fa fa-tag" aria-hidden="true"></i> Categories: <span>Meaning of life</span></p>
-                                
+
                             </div>
                         </div>
-                         <center><a href="sermons.php" class="btn-center crose-btn"  >More Sermons</a></center> 
+                         <center><a href="sermons.php" class="btn-center crose-btn"  >More Sermons</a></center>
                     </div>
-                   
+
                 </div>
-                
+
             </div>
-           
+
         </div>
-        
+
     </section>
 
     <!-- ##### Latest Sermons Area End ##### -->
@@ -521,7 +519,7 @@ include('include/header.php')
                                 <!-- Single Upcoming Events Area -->
                                 <div class="single-upcoming-events-area d-flex flex-wrap align-items-center">
                                     <!-- Thumbnail -->
-                                    
+
                                     <!-- Content -->
                                     <div class="upcoming-events-thumbnail">
                                         <img src="img/1.jpg" alt="">
@@ -537,9 +535,9 @@ include('include/header.php')
                                             <p>Transforming the innerman through life break through message</p>
                                             <a href="#">Read More <i class="fa fa-angle-double-right"></i></a>
                                         </div>
-                                        
+
                                     </div>
-                                    
+
                                 </div>
 
                                 <!-- Single Upcoming Events Area -->
@@ -560,18 +558,18 @@ include('include/header.php')
                                             <p>Transforming the innerman through life break through message</p>
                                             <a href="#">Read More <i class="fa fa-angle-double-right"></i></a>
                                         </div>
-                                        
+
                                     </div>
-                                   
+
                                 </div>
 
                                 <!-- Single Upcoming Events Area -->
                                 <div class="single-upcoming-events-area d-flex flex-wrap align-items-center">
-                                   
+
                                     <!-- Thumbnail -->
                                     <div class="upcoming-events-thumbnail">
                                         <img src="img/family.jpg" alt="">
-                                    </div> 
+                                    </div>
                                     <!-- Content -->
                                   <div class="upcoming-events-content d-flex flex-wrap align-items-center" >
                                         <div class="events-text">
@@ -584,9 +582,9 @@ include('include/header.php')
                                             <p>Transforming the innerman through life break through message</p>
                                             <a href="#">Read More <i class="fa fa-angle-double-right"></i></a>
                                         </div>
-                                        
+
                                     </div>
-                                   
+
                                 </div>
                             </div>
 
@@ -595,7 +593,7 @@ include('include/header.php')
                             <div class="single-slide">
                                 <!-- Single Upcoming Events Area -->
                                 <div class="single-upcoming-events-area d-flex flex-wrap align-items-center">
-                                   
+
                                     <!-- Thumbnail -->
                                     <div class="upcoming-events-thumbnail">
                                         <img src="img/2.jpg" alt="">
@@ -613,12 +611,12 @@ include('include/header.php')
                                             <a href="#">Read More <i class="fa fa-angle-double-right"></i></a>
                                         </div>
                                     </div>
-                                    
+
                                 </div>
 
                                 <!-- Single Upcoming Events Area -->
                                 <div class="single-upcoming-events-area d-flex flex-wrap align-items-center">
-                                   
+
                                      <!-- Thumbnail -->
                                     <div class="upcoming-events-thumbnail">
                                         <img src="img/5.jpg" alt="">
@@ -636,12 +634,12 @@ include('include/header.php')
                                             <a href="#">Read More <i class="fa fa-angle-double-right"></i></a>
                                         </div>
                                     </div>
-                                   
+
                                 </div>
 
                                 <!-- Single Upcoming Events Area -->
                                 <div class="single-upcoming-events-area d-flex flex-wrap align-items-center">
-                                    
+
                                     <!-- Thumbnail -->
                                     <div class="upcoming-events-thumbnail">
                                         <img src="img/m1.jpg" alt="">
@@ -659,7 +657,7 @@ include('include/header.php')
                                             <a href="#">Read More <i class="fa fa-angle-double-right"></i></a>
                                         </div>
                                     </div>
-                                   
+
                                 </div>
                             </div>
 
@@ -701,16 +699,16 @@ include('include/header.php')
                                     <!-- Content -->
                                         <div class="events-text">
                                             <h4>Men's Ministry</h4>
-                                            
+
                                             <p>When UCC Bwaise men start ministering, they do it with all their passion and love for christ.</p>
-                                           
+
                                         </div>
                                         <div class="find-out-more-btn">
                                             <a href="about.php" class="btn crose-btn btn-2">Find Out More</a>
                                         </div>
                         </div>
                     </div>
-                   
+
                 </div>
                  <div class="col-12 col-md-6 col-lg-4">
                     <div class="single-blog-post mb-100">
@@ -722,9 +720,9 @@ include('include/header.php')
                                     <!-- Content -->
                                         <div class="events-text">
                                             <h4>Children's Ministry</h4>
-                                            
+
                                             <p>Ucc Bwaise kids have passion of serving Jesus</p>
-                                            
+
                                         </div>
                                         <div class="find-out-more-btn">
                                             <a href="about.php" class="btn crose-btn btn-2">Find Out More</a>
@@ -732,7 +730,7 @@ include('include/header.php')
                                 </div>
                     </div>
                 </div>
-                
+
                  <div class="col-12 col-md-6 col-lg-4">
                     <div class="single-blog-post mb-100">
                         <div class="single-upcoming-events-area d-flex flex-wrap align-items-center">
@@ -743,13 +741,13 @@ include('include/header.php')
                                     <!-- Content -->
                                         <div class="events-text">
                                             <h4>Youth's Ministry</h4>
-                                            
+
                                             <p>Youths always minister in power and Grace given to them by God</p>
                                         </div>
                                         <div class="find-out-more-btn">
                                             <a href="about.php" class="btn crose-btn btn-2">Find Out More</a>
                                         </div>
-                                </div>        
+                                </div>
                             </div>
                      </div>
             </div>
@@ -758,7 +756,7 @@ include('include/header.php')
     <!-- ##### Missions Area Start ##### -->
     <section class="blog-area " >
          <div class="upcoming-events-heading bg-img bg-overlay bg-fixed" style="background-image: url(img/1.jpg);">
-           <div class="container">      
+           <div class="container">
             <div class="row">
                 <!-- Section Heading -->
                 <div class="col-12">
@@ -768,7 +766,7 @@ include('include/header.php')
                          </div>
                 </div>
              </div>
-           </div>      
+           </div>
          </div>
    </section>
    <br><br>
@@ -837,7 +835,7 @@ include('include/header.php')
     <!-- ##### Blog Area End ##### -->
 
     <!-- ##### Subscribe Area Start ##### -->
-    
+
     <section class="subscribe-area">
         <div class="container">
             <div class="row align-items-center">
@@ -861,7 +859,7 @@ include('include/header.php')
         </div>
     </section>
       <?php
-} else if(isset($_SESSION['username'])) { 
+} else if(isset($_SESSION['username'])) {
     include('include/admin.php');
 
 } ?>
