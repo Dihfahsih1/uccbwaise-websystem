@@ -3,14 +3,14 @@ include('include/admin_header.php');
 ?>
 <br>
 
-<?php 
+<?php
     include('include/availablepackage.php');
-  
+
 ?>
 
 <br>
-<!--*************************************************** FOOTERS **********************************************-->
-  
+<!--*************************************************** FOOTER*********************************************-->
+
     <footer id="footer" class="midnight-blue">
         <div class="container">
             <div class="row">
